@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+/* to delete */
+body{
+    height:300vw;
+}
+.title-body{
+    margin-bottom:5vw;
+}
+.title{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    font-size: 26px;
+    margin-bottom:5vh;
+    /* position:absolute;
+    top:5%;
+    left:10%; */
+    /* height:5vw; */
+}
+.t{
+    color:#6A4BFF;
+}
+.box{
+    padding-top:3%;
+    background-color:#555555;
+    width:30%;
+    height:35vw;
+}
+.navbar{
+    background-color:transparent!important;
+}
+.nav-link{
+    color:white!important;
+}
+.navbar-nav{
+    display:flex;
+    justify-content: center;
+}
+.center-nav{
+    text-align:center;
+}
+
+.title-info-big{
+    margin-top:10vw;
+    font-weight: 700;
+    font-size:40px;
+    margin-bottom:5%;
+}
+.title-info-paragraph{
+    margin-bottom:5%;
+}
+.title-info-button{
+    font-weight: 500;
+    border-radius:0;
+    width:30%;
+    height:6vh;
+    color:white;
+    background-color: #5352ED;
+    font-size:1vw;
+}
+.dots{
+    position:absolute;
+    z-index:-1;
+    left:53%;
+    top:30%;
+    opacity: 0.1;
+}
+.dots-left{
+    position:absolute;
+    z-index:-1;
+    left:10%;
+    top:170%;
+    opacity: 0.1;
+}
+.dots-right{
+    position:absolute;
+    z-index:-1;
+    left:62%;
+    top:245%;
+    opacity: 0.1;
+}
+.features{
+    text-align:center;
+    margin-bottom: 5vw;
+}
+.normal-title{
+    font-size:35px;
+    font-weight: 600;
+    margin-bottom: 2vw;
+}
+.info{
+    color:#888888;
+    margin-bottom: 2vw;
+
+}
+.features-boxes-title{
+    font-weight: 500;
+    font-size:22px;
+    margin-bottom: 1vw;
+
+}
+.features-boxes-info{
+    color:#888888;
+    margin-bottom:2vw;
+
+}
+.features-boxes{
+    transition: all 1s;
+}
+.features-boxes:hover{
+    transform: translateY(-10%);
+    cursor:pointer;
+    transition: all 1s;
+    box-shadow: 0 10px 10px rgba(8, 8, 8, .1)
+}
+.block{
+    background-color:#555555;
+    height:28vw;
+}
+.left{
+    margin-right:5vw;
+}
+.right{
+    margin-left: 5vw;
+}
+.block-info{
+    padding-top:6%;
+}
+.block-info-title{
+    font-size:33px;
+    font-weight: 700;
+    margin-bottom: 2vw;
+
+}
+.block-info-paragraph{
+    color:#888888;
+    margin-bottom: 2vw;
+
+}
+.learn-more{
+    padding: auto;
+    color: #48469F;
+    font-weight: 500;
+}
+.ready{
+    margin-bottom: 10vw;
+}
+.thrill{
+    margin-bottom: 4vw;
+}
+.destinations{
+    text-align: center;
+    margin-bottom: 6vw;
+}
+.destinations .normal-title{
+    margin-bottom: 1vw;
+}
+.destinations .info{
+    margin-bottom: 4vw;
+}
+.block-small{
+    background-color:#555555;
+    height:20vw;
+    min-height:20vw;
+    margin-bottom:2vw;
+    border-radius:3px;
+    box-sizing: border-box;
+    overflow:auto;
+}
+.block-small-special{
+    box-shadow: -10px 15px 30px 1px rgba(172, 172, 172);
+    padding:18% 25% 0 7%;
+    text-align: start;
+    color:white;
+    font-size: 14px;
+    line-height: 30px;
+}
+.block-small-special span{
+    font-size:20px;
+    font-weight: 500;
+}
+.block-small-special a{
+    color:white;       
+}
+.destinations-button{
+    font-weight: 500;
+    margin-top:2vw;
+    border-radius:0;
+    width:15%;
+    height:6vh;
+    color:white;
+    background-color: #5352ED;
+    font-size:1vw;
+}
+.strip{
+    position:relative;
+    /* height: 22vw; */
+    color:white;
+    background-color: #5352ED;
+    padding: 10vh 10vh 10vh 22vh;
+    display:flex;
+    align-items: center;
+    margin-bottom:6vw;
+}
+.book-btn{
+    font-weight: 500;
+    border-radius:0;
+    width:10vw;
+    height:4vw;
+    color:#5352ED;
+    background-color: white;
+    font-size:1vw;
+    display:flex;
+    justify-content: center;
+}
+.blogs{
+    text-align: center;
+}
+.blogs-content{
+    text-align:start;
+}
+.blogs .normal-title{
+    font-size:22px;
+}
+.footer-bg{
+    width:100%;
+    opacity:0.1;
+    z-index:-1;
+}
+.lower-body .row{
+    margin-bottom:10vw;
+}
+footer .info{
+    padding:0;
+}
+footer h5{
+    margin-bottom:5vh;
+}
+footer li{
+    margin-bottom:1vh;
+}
+.list{
+    margin-right:2vw;
+}
+.logos i{
+    margin-right:1vw;
+    transition: all .7s;
+}
+.logos i:hover{
+    cursor:pointer;
+}
+i.fa-facebook-official:hover{
+    color:blue;
+    transition: all .7s;
+}
+i.fa-pinterest:hover{
+    color: red;
+}
+i.fa-twitter:hover{
+    color:turquoise;
+}
+.footer-copyright{
+    opacity:0.7;
+    margin-top:6vh;
+}
+.background-footer{
+    background-image: url("../images/mountain.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgba(0,0,0,0.2);
+}
