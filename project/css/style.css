@@ -4,9 +4,9 @@
     padding:0;
 }
 /* to delete */
-body{
+/* body{
     height:300vw;
-}
+} */
 .title-body{
     margin-bottom:5vw;
 }
@@ -26,8 +26,10 @@ body{
 .box{
     padding-top:3%;
     background-color:#555555;
-    width:30%;
-    height:35vw;
+    
+}
+.box-inside{
+    height: 480px;
 }
 .navbar{
     background-color:transparent!important;
@@ -59,7 +61,8 @@ body{
     height:6vh;
     color:white;
     background-color: #5352ED;
-    font-size:1vw;
+    font-size:1vh;
+    margin-bottom:5vh;
 }
 .dots{
     position:absolute;
@@ -108,7 +111,14 @@ body{
 
 }
 .features-boxes{
+    margin-top:2vh;
     transition: all 1s;
+}
+@media(max-width:1000px){
+    .features-boxes{
+        margin-top:5vh;
+        transition: all 1s;
+    }
 }
 .features-boxes:hover{
     transform: translateY(-10%);
@@ -118,7 +128,10 @@ body{
 }
 .block{
     background-color:#555555;
-    height:28vw;
+    margin-top:5vh;
+}
+.block-inside{
+    height:30vw;
 }
 .left{
     margin-right:5vw;
@@ -144,6 +157,7 @@ body{
     padding: auto;
     color: #48469F;
     font-weight: 500;
+    margin-bottom:5vh;
 }
 .ready{
     margin-bottom: 10vw;
@@ -216,6 +230,8 @@ body{
     display:flex;
     justify-content: center;
 }
+
+
 .blogs{
     text-align: center;
 }
@@ -244,7 +260,10 @@ footer li{
 }
 .list{
     margin-right:2vw;
+    text-align:center;
+    margin-bottom:5vh;
 }
+
 .logos i{
     margin-right:1vw;
     transition: all .7s;
@@ -271,4 +290,10 @@ i.fa-twitter:hover{
     background-repeat: no-repeat;
     background-size:cover;
     background-color: rgba(0,0,0,0.2);
+}
+.fade-anim{
+    display:none;
+}
+.fade-anim-scroll{
+    opacity: 0;
 }
